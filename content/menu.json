@@ -1,0 +1,119 @@
+{
+  "_help": [
+    "All menu and catalog items live in this one file. The page builds itself from it.",
+    "Every item has English (en) and Spanish (es) text side by side. Edit both.",
+    "price: a number like 1.5 (shown as $1.50), or null to show 'Ask' / 'Pregunta'.",
+    "tag: \"favorite\", \"seasonal\" or null.",
+    "orderable: true = shows a + / Add to cart button so customers can order it for pickup.",
+    "sizes (clothing): sizes to choose from, English and Spanish labels in the same order, e.g. S/M/L = CH/M/G. Leave it out for one-size items.",
+    "fromPrice (clothing): true shows the price as 'From $45'.",
+    "image (clothing): path to a photo in assets/img/catalog/ (640x800, portrait 4:5).",
+    "showPrices: set to false to hide every price on the site.",
+    "These are SAMPLE items and prices until the real menu arrives. See README.md."
+  ],
+  "currency": "$",
+  "showPrices": true,
+
+  "bakery": [
+    {
+      "id": "pan-dulce",
+      "title": { "en": "Pan dulce", "es": "Pan dulce" },
+      "note": { "en": "Price per piece", "es": "Precio por pieza" },
+      "items": [
+        { "id": "concha", "name": { "en": "Concha", "es": "Concha" }, "desc": { "en": "Soft sweet bun with a crackly vanilla, chocolate or pink sugar shell.", "es": "Pan suave con costra de azúcar de vainilla, chocolate o rosa." }, "price": 1.5, "tag": null, "orderable": true },
+        { "id": "cuerno", "name": { "en": "Cuerno", "es": "Cuerno" }, "desc": { "en": "Buttery, flaky Mexican croissant.", "es": "Cuerno hojaldrado de mantequilla." }, "price": 1.75, "tag": null, "orderable": true },
+        { "id": "oreja", "name": { "en": "Oreja", "es": "Oreja" }, "desc": { "en": "Caramelized puff pastry, crisp and golden.", "es": "Hojaldre caramelizado, crujiente y dorado." }, "price": 1.75, "tag": null, "orderable": true },
+        { "id": "marranito", "name": { "en": "Marranito", "es": "Marranito" }, "desc": { "en": "Little pig-shaped gingerbread made with piloncillo.", "es": "Cochinito de piloncillo, suave y especiado." }, "price": 1.25, "tag": null, "orderable": true },
+        { "id": "empanada-pina", "name": { "en": "Pineapple empanada", "es": "Empanada de piña" }, "desc": { "en": "Flaky turnover filled with pineapple jam.", "es": "Empanada hojaldrada rellena de piña." }, "price": 2.25, "tag": null, "orderable": true },
+        { "id": "besos", "name": { "en": "Besos", "es": "Besos" }, "desc": { "en": "Two little domes joined with jam and rolled in coconut.", "es": "Dos mitades unidas con mermelada y cubiertas de coco." }, "price": 1.75, "tag": null, "orderable": true },
+        { "id": "polvoron", "name": { "en": "Polvorón", "es": "Polvorón" }, "desc": { "en": "Crumbly shortbread cookie in pink, yellow and white.", "es": "Galleta que se deshace en la boca: rosa, amarilla y blanca." }, "price": 1.0, "tag": null, "orderable": true }
+      ]
+    },
+    {
+      "id": "pan-salado",
+      "title": { "en": "Bread for tortas", "es": "Pan para tortas" },
+      "note": { "en": "Baked fresh daily", "es": "Horneado fresco cada día" },
+      "items": [
+        { "id": "bolillo", "name": { "en": "Bolillo", "es": "Bolillo" }, "desc": { "en": "Crusty white roll, soft inside.", "es": "Pan blanco crujiente por fuera y suave por dentro." }, "price": 0.75, "tag": null, "orderable": true },
+        { "id": "telera", "name": { "en": "Telera", "es": "Telera" }, "desc": { "en": "Flat, wide roll made for tortas.", "es": "Pan plano y ancho, perfecto para tortas." }, "price": 0.85, "tag": null, "orderable": true }
+      ]
+    },
+    {
+      "id": "postres",
+      "title": { "en": "Cakes and desserts", "es": "Pasteles y postres" },
+      "note": { "en": "By the slice or whole", "es": "Por rebanada o entero" },
+      "items": [
+        { "id": "tres-leches-slice", "name": { "en": "Tres leches, slice", "es": "Tres leches, rebanada" }, "desc": { "en": "Sponge cake soaked in three milks, topped with whipped cream.", "es": "Pan esponjoso bañado en tres leches con crema batida." }, "price": 4.5, "tag": null, "orderable": true },
+        { "id": "flan", "name": { "en": "Flan", "es": "Flan" }, "desc": { "en": "Silky caramel custard.", "es": "Flan napolitano con caramelo." }, "price": 4.0, "tag": null, "orderable": true },
+        { "id": "party-cake", "name": { "en": "Celebration cake", "es": "Pastel para fiesta" }, "desc": { "en": "Whole tres leches or decorated cake for birthdays and parties. Tell us the size and flavor in your notes.", "es": "Pastel entero de tres leches o decorado para cumpleaños y fiestas. Indica tamaño y sabor en las notas." }, "price": null, "tag": null, "orderable": true }
+      ]
+    },
+    {
+      "id": "temporada",
+      "title": { "en": "Seasonal", "es": "De temporada" },
+      "note": { "en": "While the season lasts", "es": "Mientras dure la temporada" },
+      "items": [
+        { "id": "pan-de-muerto", "name": { "en": "Pan de muerto", "es": "Pan de muerto" }, "desc": { "en": "Orange-blossom sweet bread dusted with sugar, for Día de Muertos.", "es": "Pan con azahar y azúcar para Día de Muertos." }, "price": 4.0, "tag": "seasonal", "orderable": true },
+        { "id": "rosca", "name": { "en": "Rosca de Reyes", "es": "Rosca de Reyes" }, "desc": { "en": "King's cake ring for January 6. Best ordered ahead.", "es": "Rosca para el 6 de enero. Mejor apártala con tiempo." }, "price": null, "tag": "seasonal", "orderable": true }
+      ]
+    }
+  ],
+
+  "coffee": [
+    {
+      "id": "hot",
+      "title": { "en": "Hot coffee", "es": "Café caliente" },
+      "note": { "en": "12 oz", "es": "12 oz" },
+      "items": [
+        { "id": "cafe-de-olla", "name": { "en": "Café de olla", "es": "Café de olla" }, "desc": { "en": "Coffee simmered with cinnamon and piloncillo.", "es": "Café hervido con canela y piloncillo." }, "price": 3.25, "tag": null, "orderable": true },
+        { "id": "americano", "name": { "en": "Americano", "es": "Americano" }, "desc": { "en": "Espresso and hot water.", "es": "Espresso con agua caliente." }, "price": 2.75, "tag": null, "orderable": true },
+        { "id": "latte", "name": { "en": "Latte", "es": "Latte" }, "desc": { "en": "Espresso with steamed milk.", "es": "Espresso con leche vaporizada." }, "price": 4.25, "tag": null, "orderable": true },
+        { "id": "cajeta-latte", "name": { "en": "Cajeta latte", "es": "Latte de cajeta" }, "desc": { "en": "Espresso, steamed milk and goat-milk caramel.", "es": "Espresso, leche vaporizada y cajeta." }, "price": 4.95, "tag": null, "orderable": true },
+        { "id": "mocha-mexicano", "name": { "en": "Mexican mocha", "es": "Moka mexicano" }, "desc": { "en": "Chocolate, cinnamon and a hint of chile.", "es": "Chocolate, canela y un toque de chile." }, "price": 4.75, "tag": null, "orderable": true },
+        { "id": "chocolate", "name": { "en": "Mexican hot chocolate", "es": "Chocolate caliente" }, "desc": { "en": "Stone-ground chocolate whisked with cinnamon.", "es": "Chocolate de mesa batido con canela." }, "price": 3.5, "tag": null, "orderable": true },
+        { "id": "champurrado", "name": { "en": "Champurrado", "es": "Champurrado" }, "desc": { "en": "Thick, warm chocolate atole made with masa.", "es": "Atole espeso de chocolate y masa." }, "price": 3.5, "tag": "seasonal", "orderable": true }
+      ]
+    },
+    {
+      "id": "cold",
+      "title": { "en": "Cold drinks", "es": "Bebidas frías" },
+      "note": { "en": "16 oz", "es": "16 oz" },
+      "items": [
+        { "id": "horchata-latte", "name": { "en": "Iced horchata latte", "es": "Latte de horchata frío" }, "desc": { "en": "Espresso over cinnamon rice horchata.", "es": "Espresso sobre horchata de arroz con canela." }, "price": 5.25, "tag": null, "orderable": true },
+        { "id": "horchata", "name": { "en": "Horchata", "es": "Horchata" }, "desc": { "en": "Rice drink with cinnamon and vanilla.", "es": "Agua de arroz con canela y vainilla." }, "price": 3.5, "tag": null, "orderable": true },
+        { "id": "agua-fresca", "name": { "en": "Agua fresca of the day", "es": "Agua fresca del día" }, "desc": { "en": "Ask for today's flavor: jamaica, tamarind, pineapple and more.", "es": "Pregunta por el sabor del día: jamaica, tamarindo, piña y más." }, "price": 3.0, "tag": null, "orderable": true },
+        { "id": "limonada", "name": { "en": "Lemonade", "es": "Limonada" }, "desc": { "en": "Fresh-squeezed and lightly sweet.", "es": "Recién exprimida y ligeramente dulce." }, "price": 3.0, "tag": null, "orderable": true },
+        { "id": "jugo-naranja", "name": { "en": "Orange juice", "es": "Jugo de naranja" }, "desc": { "en": "Fresh-squeezed.", "es": "Recién exprimido." }, "price": 3.5, "tag": null, "orderable": true }
+      ]
+    }
+  ],
+
+  "clothing": [
+    {
+      "id": "featured",
+      "title": { "en": "In the shop now", "es": "Ahora en la tienda" },
+      "note": { "en": "Sizes and colors vary", "es": "Tallas y colores varían" },
+      "items": [
+        { "id": "blusa-rosas", "name": { "en": "Embroidered rose blouse", "es": "Blusa bordada de rosas" }, "desc": { "en": "White cotton blouse with red roses embroidered on the yoke.", "es": "Blusa de algodón blanca con rosas rojas bordadas." }, "price": 45, "fromPrice": true, "tag": null, "image": "assets/img/catalog/blouse", "alt": { "en": "White blouse with red embroidered roses", "es": "Blusa blanca con rosas rojas bordadas" }, "orderable": true, "sizes": { "en": ["S", "M", "L", "XL"], "es": ["CH", "M", "G", "XG"] } },
+        { "id": "vestido-bordado", "name": { "en": "Embroidered dress", "es": "Vestido bordado" }, "desc": { "en": "Turquoise dress with floral embroidery and a woven yellow sash.", "es": "Vestido turquesa con flores bordadas y faja amarilla." }, "price": 65, "fromPrice": true, "tag": null, "image": "assets/img/catalog/dress", "alt": { "en": "Turquoise embroidered dress with a yellow sash", "es": "Vestido turquesa bordado con faja amarilla" }, "orderable": true, "sizes": { "en": ["S", "M", "L", "XL"], "es": ["CH", "M", "G", "XG"] } },
+        { "id": "blusa-faja", "name": { "en": "Blouse with faja", "es": "Blusa con faja" }, "desc": { "en": "Long-sleeve blouse with a flowered neckline and bright faja belt.", "es": "Blusa de manga larga con cuello de flores y faja de color." }, "price": 55, "fromPrice": true, "tag": null, "image": "assets/img/catalog/huipil", "alt": { "en": "White blouse with a flower-embroidered neckline and orange sash", "es": "Blusa blanca con cuello bordado de flores y faja naranja" }, "orderable": true, "sizes": { "en": ["S", "M", "L", "XL"], "es": ["CH", "M", "G", "XG"] } },
+        { "id": "sombrero", "name": { "en": "Palm hat", "es": "Sombrero de palma" }, "desc": { "en": "Woven palm hat with a ribbon band and bow.", "es": "Sombrero tejido de palma con listón y moño." }, "price": 25, "fromPrice": false, "tag": null, "image": "assets/img/catalog/hat", "alt": { "en": "Woven palm hat with an orange ribbon", "es": "Sombrero de palma con listón naranja" }, "orderable": true },
+        { "id": "bolsa-mercado", "name": { "en": "Mercado bag", "es": "Bolsa de mercado" }, "desc": { "en": "Big, light woven tote in bright plaid. Made to carry everything.", "es": "Bolsa tejida grande y ligera en cuadros de color." }, "price": 18, "fromPrice": false, "tag": null, "image": "assets/img/catalog/mercado-bag", "alt": { "en": "Blue and pink plaid woven mercado bag", "es": "Bolsa de mercado tejida en cuadros azul y rosa" }, "orderable": true },
+        { "id": "bolsa-mediana", "name": { "en": "Mercado tote, red", "es": "Bolsa de mercado roja" }, "desc": { "en": "Medium woven tote with sturdy handles.", "es": "Bolsa tejida mediana con asas resistentes." }, "price": 15, "fromPrice": false, "tag": null, "image": "assets/img/catalog/red-bag", "alt": { "en": "Red woven mercado tote with green handles", "es": "Bolsa de mercado roja con asas verdes" }, "orderable": true }
+      ]
+    },
+    {
+      "id": "also",
+      "title": { "en": "Also in store", "es": "También en tienda" },
+      "note": null,
+      "items": [
+        { "id": "huipiles", "name": { "en": "Huipiles", "es": "Huipiles" } },
+        { "id": "rebozos", "name": { "en": "Rebozos", "es": "Rebozos" } },
+        { "id": "guayaberas", "name": { "en": "Guayaberas", "es": "Guayaberas" } },
+        { "id": "ninas", "name": { "en": "Girls' dresses", "es": "Vestidos para niña" } },
+        { "id": "fajas", "name": { "en": "Fajas and hair ribbons", "es": "Fajas y listones" } },
+        { "id": "servilletas", "name": { "en": "Embroidered napkins", "es": "Servilletas bordadas" } }
+      ]
+    }
+  ]
+}

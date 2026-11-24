@@ -1,0 +1,599 @@
+{
+  "_help": "Every piece of page text, in English (en) and Spanish (es) side by side. Change the words between the quotes; keep the key names (left side) as they are. Words in {curly braces} are filled in by the site (a number, a date, an item name). Menu items are in menu.json.",
+  "meta": {
+    "title": {
+      "en": "Lolita Bakery · Mexican bakery, coffee and clothing in Cornelia, GA",
+      "es": "Lolita Bakery · Panadería, café y ropa mexicana en Cornelia, GA"
+    },
+    "description": {
+      "en": "Pan dulce baked fresh every day from Grandma's recipes, café de olla and horchata lattes, and traditional Mexican clothing. 1275 Level Grove Rd, Cornelia, GA.",
+      "es": "Pan dulce horneado cada día con las recetas de la abuela, café de olla, lattes de horchata y ropa tradicional mexicana. 1275 Level Grove Rd, Cornelia, GA."
+    }
+  },
+  "a11y": {
+    "skip": {
+      "en": "Skip to content",
+      "es": "Saltar al contenido"
+    },
+    "home": {
+      "en": "Lolita Bakery, back to top",
+      "es": "Lolita Bakery, volver al inicio"
+    },
+    "mainNav": {
+      "en": "Sections",
+      "es": "Secciones"
+    },
+    "langGroup": {
+      "en": "Language",
+      "es": "Idioma"
+    }
+  },
+  "nav": {
+    "bakery": {
+      "en": "Bakery",
+      "es": "Panadería"
+    },
+    "coffee": {
+      "en": "Coffee",
+      "es": "Café"
+    },
+    "clothing": {
+      "en": "Clothing",
+      "es": "Ropa"
+    },
+    "visit": {
+      "en": "Visit",
+      "es": "Visítanos"
+    }
+  },
+  "common": {
+    "directions": {
+      "en": "Get directions",
+      "es": "Cómo llegar"
+    },
+    "email": {
+      "en": "Email us",
+      "es": "Escríbenos"
+    },
+    "next": {
+      "en": "Next",
+      "es": "Siguiente"
+    },
+    "seeMenu": {
+      "en": "See the menu",
+      "es": "Ver el menú"
+    },
+    "seeShop": {
+      "en": "See the shop",
+      "es": "Ver la tienda"
+    },
+    "ask": {
+      "en": "Ask",
+      "es": "Pregunta"
+    },
+    "from": {
+      "en": "From",
+      "es": "Desde"
+    },
+    "favorite": {
+      "en": "Favorite",
+      "es": "Favorito"
+    },
+    "seasonal": {
+      "en": "Seasonal",
+      "es": "De temporada"
+    },
+    "playVideo": {
+      "en": "Play video",
+      "es": "Reproducir video"
+    },
+    "pauseVideo": {
+      "en": "Pause video",
+      "es": "Pausar video"
+    }
+  },
+  "hero": {
+    "motto": {
+      "en": "Pan fresco, vida fresca",
+      "es": "Pan fresco, vida fresca"
+    },
+    "title": {
+      "en": "Pan dulce, coffee and Mexican clothing",
+      "es": "Pan dulce, café y ropa mexicana"
+    },
+    "place": {
+      "en": "in Cornelia, Georgia",
+      "es": "en Cornelia, Georgia"
+    },
+    "lead": {
+      "en": "Grandma's recipes, baked fresh every day. A bakery, a coffee bar and a clothing shop under one roof.",
+      "es": "Recetas de la abuela, horneadas cada día. Panadería, café y tienda de ropa bajo un mismo techo."
+    },
+    "preorder": {
+      "en": "Pre-order pan dulce",
+      "es": "Encarga tu pan"
+    },
+    "doorsLabel": {
+      "en": "Step inside",
+      "es": "¡Pásale!"
+    },
+    "bakerySub": {
+      "en": "Pan dulce and cakes",
+      "es": "Pan dulce y pasteles"
+    },
+    "coffeeSub": {
+      "en": "Café de olla and lattes",
+      "es": "Café de olla y lattes"
+    },
+    "clothingSub": {
+      "en": "Embroidered blouses and dresses",
+      "es": "Blusas y vestidos bordados"
+    }
+  },
+  "bakery": {
+    "label": {
+      "en": "Bakery",
+      "es": "Panadería"
+    },
+    "title": {
+      "en": "Pan dulce, fresh from our ovens",
+      "es": "Pan dulce recién salido del horno"
+    },
+    "text": {
+      "en": "Conchas, cuernos, orejas and more, baked fresh every day from Grandma's recipes. Pick your favorites from the case, or pre-order a box and we'll have it ready.",
+      "es": "Conchas, cuernos, orejas y mucho más, horneados cada día con las recetas de la abuela. Escoge tus favoritos en la vitrina o encarga una caja y te la tenemos lista."
+    },
+    "menuTitle": {
+      "en": "Bakery menu",
+      "es": "Menú de panadería"
+    },
+    "caseCaption": {
+      "en": "From our pastry case",
+      "es": "De nuestra vitrina"
+    },
+    "preorderHint": {
+      "en": "Pre-order for pickup: tap + on any item, then open your cart to choose a pickup day.",
+      "es": "Encarga para recoger: toca + en cualquier pan y abre tu carrito para elegir el día."
+    },
+    "videoLabel": {
+      "en": "Walking into Lolita Bakery, past the pastry cases",
+      "es": "Entrando a Lolita Bakery, junto a las vitrinas de pan"
+    }
+  },
+  "cakes": {
+    "label": {
+      "en": "Cakes and celebrations",
+      "es": "Pasteles y celebraciones"
+    },
+    "title": {
+      "en": "Cakes for every celebration",
+      "es": "Pasteles para cada celebración"
+    },
+    "text": {
+      "en": "Birthday and baptism cakes, cinnamon roll towers, tuxedo conchas and whole dessert tables. Tell us the date, the size and the flavor, and we'll bake it for your party.",
+      "es": "Pasteles de cumpleaños y de bautizo, torres de roles de canela, conchas de esmoquin y mesas de postres completas. Dinos la fecha, el tamaño y el sabor, y lo horneamos para tu fiesta."
+    },
+    "order": {
+      "en": "Order a cake",
+      "es": "Encarga un pastel"
+    }
+  },
+  "gallery": {
+    "viewer": {
+      "en": "Photo viewer",
+      "es": "Visor de fotos"
+    },
+    "prev": {
+      "en": "Previous photos",
+      "es": "Fotos anteriores"
+    },
+    "next": {
+      "en": "More photos",
+      "es": "Más fotos"
+    },
+    "prevPhoto": {
+      "en": "Previous photo",
+      "es": "Foto anterior"
+    },
+    "nextPhoto": {
+      "en": "Next photo",
+      "es": "Foto siguiente"
+    },
+    "close": {
+      "en": "Close photo",
+      "es": "Cerrar foto"
+    },
+    "count": {
+      "en": "{n} of {total}",
+      "es": "{n} de {total}"
+    }
+  },
+  "coffee": {
+    "label": {
+      "en": "Coffee",
+      "es": "Café"
+    },
+    "title": {
+      "en": "Café de olla and something sweet",
+      "es": "Café de olla y algo dulce"
+    },
+    "text": {
+      "en": "Coffee simmered with cinnamon and piloncillo, horchata lattes and cold drinks to go with your pan dulce. Stay a while or take it to go.",
+      "es": "Café de olla con canela y piloncillo, lattes de horchata y bebidas frías para acompañar tu pan dulce. Quédate un rato o llévatelo."
+    },
+    "menuTitle": {
+      "en": "Coffee menu",
+      "es": "Menú de café"
+    },
+    "photosCaption": {
+      "en": "From our coffee bar",
+      "es": "De nuestra barra de café"
+    },
+    "videoLabel": {
+      "en": "The coffee counter at Lolita Bakery",
+      "es": "La barra de café de Lolita Bakery"
+    },
+    "orderHint": {
+      "en": "Order ahead: tap + on any drink and pick it up at the counter.",
+      "es": "Pide por adelantado: toca + en cualquier bebida y recógela en la barra."
+    }
+  },
+  "clothing": {
+    "label": {
+      "en": "Clothing",
+      "es": "Ropa"
+    },
+    "title": {
+      "en": "Traditional Mexican clothing",
+      "es": "Ropa tradicional mexicana"
+    },
+    "text": {
+      "en": "Embroidered blouses, dresses, huipiles, rebozos and mercado bags for fiestas, folklórico and every day. Come in and try them on.",
+      "es": "Blusas bordadas, vestidos, huipiles, rebozos y bolsas de mercado para fiestas, folklórico y el día a día. Ven a probártelos."
+    },
+    "catalogTitle": {
+      "en": "In the shop now",
+      "es": "Ahora en la tienda"
+    },
+    "note": {
+      "en": "Sizes, colors and stock change often. Email us to check an item before you come in.",
+      "es": "Tallas, colores y existencias cambian seguido. Escríbenos para apartar o confirmar una prenda antes de venir."
+    },
+    "ask": {
+      "en": "Ask about this",
+      "es": "Preguntar por esta prenda"
+    },
+    "askSubject": {
+      "en": "Question about: {item}",
+      "es": "Pregunta sobre: {item}"
+    },
+    "videoLabel": {
+      "en": "The clothing wall at Lolita Bakery: embroidered blouses, dresses and bags",
+      "es": "La pared de ropa en Lolita Bakery: blusas bordadas, vestidos y bolsas"
+    }
+  },
+  "visit": {
+    "label": {
+      "en": "Visit us",
+      "es": "Visítanos"
+    },
+    "title": {
+      "en": "Come see us in Cornelia",
+      "es": "Te esperamos en Cornelia"
+    },
+    "address": {
+      "en": "Address",
+      "es": "Dirección"
+    },
+    "hours": {
+      "en": "Hours",
+      "es": "Horario"
+    },
+    "hoursSoon": {
+      "en": "Opening hours coming soon.",
+      "es": "Horario disponible muy pronto."
+    },
+    "email": {
+      "en": "Email",
+      "es": "Correo"
+    },
+    "follow": {
+      "en": "Follow us",
+      "es": "Síguenos"
+    },
+    "mapTitle": {
+      "en": "Map to Lolita Bakery",
+      "es": "Mapa a Lolita Bakery"
+    },
+    "openMap": {
+      "en": "Open in Google Maps",
+      "es": "Abrir en Google Maps"
+    },
+    "videoLabel": {
+      "en": "The Lolita Bakery storefront on Level Grove Road",
+      "es": "La fachada de Lolita Bakery en Level Grove Road"
+    }
+  },
+  "footer": {
+    "about": {
+      "en": "Mexican bakery, coffee bar and clothing shop in Cornelia, Georgia. Grandma's recipes, baked fresh every day.",
+      "es": "Panadería, café y tienda de ropa mexicana en Cornelia, Georgia. Recetas de la abuela, horneadas cada día."
+    },
+    "contact": {
+      "en": "Contact",
+      "es": "Contacto"
+    },
+    "rights": {
+      "en": "All rights reserved.",
+      "es": "Todos los derechos reservados."
+    },
+    "top": {
+      "en": "Back to top",
+      "es": "Volver arriba"
+    },
+    "logoAlt": {
+      "en": "Lolita Bakery logo",
+      "es": "Logo de Lolita Bakery"
+    },
+    "facebook": {
+      "en": "Lolita Bakery on Facebook",
+      "es": "Lolita Bakery en Facebook"
+    },
+    "instagram": {
+      "en": "Lolita Bakery on Instagram",
+      "es": "Lolita Bakery en Instagram"
+    }
+  },
+  "cart": {
+    "label": {
+      "en": "Cart",
+      "es": "Carrito"
+    },
+    "open": {
+      "en": "Cart, {n} items",
+      "es": "Carrito, {n} artículos"
+    },
+    "add": {
+      "en": "Add {item} to your cart",
+      "es": "Agregar {item} al carrito"
+    },
+    "less": {
+      "en": "One less {item}",
+      "es": "Quitar uno: {item}"
+    },
+    "more": {
+      "en": "One more {item}",
+      "es": "Agregar otro: {item}"
+    },
+    "each": {
+      "en": "{price} each",
+      "es": "{price} c/u"
+    },
+    "from": {
+      "en": "from {price}",
+      "es": "desde {price}"
+    },
+    "countOne": {
+      "en": "1 item",
+      "es": "1 artículo"
+    },
+    "countMany": {
+      "en": "{n} items",
+      "es": "{n} artículos"
+    },
+    "tray": {
+      "en": "Your cart",
+      "es": "Tu carrito"
+    },
+    "review": {
+      "en": "View cart",
+      "es": "Ver carrito"
+    },
+    "size": {
+      "en": "Size",
+      "es": "Talla"
+    },
+    "oneSize": {
+      "en": "One size",
+      "es": "Talla única"
+    },
+    "sizeLine": {
+      "en": "Size {size}",
+      "es": "Talla {size}"
+    },
+    "chooseSize": {
+      "en": "Choose a size",
+      "es": "Elige una talla"
+    },
+    "addToCart": {
+      "en": "Add to cart",
+      "es": "Agregar al carrito"
+    },
+    "added": {
+      "en": "Added",
+      "es": "Agregado"
+    },
+    "title": {
+      "en": "Your order for pickup",
+      "es": "Tu pedido para recoger"
+    },
+    "intro": {
+      "en": "Pick everything up at the shop and pay there. Choose your pickup day and leave your details: your email app opens with the order ready to send, and we reply to confirm.",
+      "es": "Recoges todo en la tienda y pagas ahí. Elige el día para recoger y deja tus datos: se abre tu correo con el pedido listo para enviar y te respondemos para confirmar."
+    },
+    "leadTime": {
+      "en": "Bakery orders need at least one day's notice.",
+      "es": "Los pedidos de panadería necesitan al menos un día de anticipación."
+    },
+    "items": {
+      "en": "Your items",
+      "es": "Tus productos"
+    },
+    "empty": {
+      "en": "Your cart is empty. Tap + on any menu item, or Add to cart on clothing.",
+      "es": "Tu carrito está vacío. Toca + en cualquier producto o «Agregar al carrito» en la ropa."
+    },
+    "estimate": {
+      "en": "Estimated total",
+      "es": "Total estimado"
+    },
+    "estimateNote": {
+      "en": "Clothing prices depend on size and style. We confirm the final total when we reply.",
+      "es": "El precio de la ropa depende de la talla y el estilo. Confirmamos el total al responderte."
+    },
+    "priceToConfirm": {
+      "en": "price to confirm",
+      "es": "precio por confirmar"
+    },
+    "priceToConfirmOnly": {
+      "en": "Price to confirm",
+      "es": "Precio por confirmar"
+    },
+    "confirmNote": {
+      "en": "We confirm the final total when we reply.",
+      "es": "Confirmamos el total al responderte."
+    },
+    "date": {
+      "en": "Pickup day",
+      "es": "Día para recoger"
+    },
+    "time": {
+      "en": "Pickup time",
+      "es": "Hora para recoger"
+    },
+    "name": {
+      "en": "Your name",
+      "es": "Tu nombre"
+    },
+    "phone": {
+      "en": "Phone",
+      "es": "Teléfono"
+    },
+    "email": {
+      "en": "Email (optional)",
+      "es": "Correo (opcional)"
+    },
+    "notes": {
+      "en": "Notes (optional)",
+      "es": "Notas (opcional)"
+    },
+    "notesHint": {
+      "en": "Flavors, colors, cake size, a message for the cake…",
+      "es": "Sabores, colores, tamaño del pastel, mensaje para el pastel…"
+    },
+    "send": {
+      "en": "Send order",
+      "es": "Enviar pedido"
+    },
+    "close": {
+      "en": "Close",
+      "es": "Cerrar"
+    },
+    "clear": {
+      "en": "Clear all",
+      "es": "Vaciar"
+    },
+    "errItems": {
+      "en": "Your cart is empty.",
+      "es": "Tu carrito está vacío."
+    },
+    "errDate": {
+      "en": "Choose a pickup day from {min} on.",
+      "es": "Elige un día para recoger a partir del {min}."
+    },
+    "errTime": {
+      "en": "Choose a pickup time.",
+      "es": "Elige una hora para recoger."
+    },
+    "errTimePast": {
+      "en": "That's too soon for today. Choose a time at least 30 minutes from now.",
+      "es": "Es muy pronto para hoy. Elige una hora con al menos 30 minutos de margen."
+    },
+    "errTimeRange": {
+      "en": "Choose a time between {min} and {max}",
+      "es": "Elige una hora entre {min} y {max}"
+    },
+    "errName": {
+      "en": "Tell us your name.",
+      "es": "Escribe tu nombre."
+    },
+    "errPhone": {
+      "en": "Enter a phone number we can call or text.",
+      "es": "Escribe un teléfono para llamarte o mandarte mensaje."
+    },
+    "errEmail": {
+      "en": "That email doesn't look right.",
+      "es": "Ese correo no parece correcto."
+    },
+    "doneTitle": {
+      "en": "Last step: press send in your email",
+      "es": "Último paso: envía el correo"
+    },
+    "doneText": {
+      "en": "Your email app opened with the order written for you. Press send there and we'll reply to confirm your pickup.",
+      "es": "Se abrió tu correo con el pedido ya escrito. Presiona enviar y te respondemos para confirmar."
+    },
+    "doneFallback": {
+      "en": "Email didn't open? Copy the order and send it to {email}, or message us on Facebook.",
+      "es": "¿No se abrió el correo? Copia el pedido y mándalo a {email}, o escríbenos por Facebook."
+    },
+    "openAgain": {
+      "en": "Open email again",
+      "es": "Abrir correo de nuevo"
+    },
+    "copy": {
+      "en": "Copy order",
+      "es": "Copiar pedido"
+    },
+    "copied": {
+      "en": "Copied",
+      "es": "Copiado"
+    },
+    "back": {
+      "en": "Edit order",
+      "es": "Editar pedido"
+    },
+    "mailSubject": {
+      "en": "Pickup order for {date}, {name}",
+      "es": "Pedido para recoger el {date}, {name}"
+    },
+    "mailHello": {
+      "en": "Hello Lolita Bakery, I'd like to order for pickup:",
+      "es": "Hola Lolita Bakery, quiero hacer un pedido para recoger:"
+    },
+    "mailPickup": {
+      "en": "Pickup",
+      "es": "Recoger"
+    },
+    "mailName": {
+      "en": "Name",
+      "es": "Nombre"
+    },
+    "mailPhone": {
+      "en": "Phone",
+      "es": "Teléfono"
+    },
+    "mailEmail": {
+      "en": "Email",
+      "es": "Correo"
+    },
+    "mailNotes": {
+      "en": "Notes",
+      "es": "Notas"
+    },
+    "mailPay": {
+      "en": "I'll pay at pickup.",
+      "es": "Pago al recoger."
+    },
+    "mailThanks": {
+      "en": "Thank you!",
+      "es": "¡Gracias!"
+    }
+  },
+  "preview": {
+    "note": {
+      "en": "Preview: menu and prices are samples",
+      "es": "Vista previa: menú y precios de muestra"
+    }
+  }
+}

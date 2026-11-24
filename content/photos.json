@@ -1,0 +1,99 @@
+{
+  "_help": [
+    "The photo galleries on the page are built from this file: the pastry case (bakery), cakes and celebrations, and drinks (coffee).",
+    "name: the short caption on the photo. alt: what the photo shows, read aloud by screen readers. English (en) and Spanish (es) side by side; edit both.",
+    "file: path of the web photo WITHOUT size or extension. tools/make-photos.py writes four files from the original: name-800.jpg/.webp (the tile) and name-1600.jpg/.webp (the full-size view).",
+    "original: the full-size photo in lolita-bakery/photos/. crop (optional): [left, top, right, bottom] as fractions of the photo, used by tools/make-photos.py.",
+    "pos (optional): which part of the photo stays in view when a tile crops it, like \"50% 30%\" (left-right, top-bottom).",
+    "Order here = order on the page. To add a photo: put the original in lolita-bakery/photos/, add a block here, then run python3 tools/make-photos.py."
+  ],
+
+  "bakery": {
+    "band": {
+      "id": "full-case", "file": "assets/img/photos/bakery/full-case", "original": "photos/pastry-case/full-case-panorama_IMG_7363.jpeg",
+      "name": { "en": "The whole pastry case", "es": "Toda la vitrina" },
+      "alt": { "en": "The full Lolita Bakery pastry case, shelves of conchas and pan dulce from end to end", "es": "La vitrina completa de Lolita Bakery, repisas de conchas y pan dulce de un lado a otro" }
+    },
+    "items": [
+      { "id": "conchas", "file": "assets/img/photos/bakery/conchas", "original": "photos/pastry-case/conchas_IMG_7219.jpeg", "pos": "50% 45%",
+        "name": { "en": "Conchas", "es": "Conchas" },
+        "alt": { "en": "Yellow, white, pink and chocolate conchas on the shelves of the pastry case", "es": "Conchas amarillas, blancas, rosas y de chocolate en las repisas de la vitrina" } },
+      { "id": "empanadas", "file": "assets/img/photos/bakery/empanadas", "original": "photos/pastry-case/empanadas_IMG_7207.jpeg", "pos": "50% 55%",
+        "name": { "en": "Empanadas", "es": "Empanadas" },
+        "alt": { "en": "A tray of golden baked empanadas", "es": "Una charola de empanadas doradas" } },
+      { "id": "bunuelos", "file": "assets/img/photos/bakery/bunuelos", "original": "photos/pastry-case/bunuelos_IMG_7272.jpeg", "pos": "50% 65%",
+        "name": { "en": "Buñuelos", "es": "Buñuelos" },
+        "alt": { "en": "Crisp flower-shaped buñuelos on a tray, with bagged pan dulce behind", "es": "Buñuelos crujientes en forma de flor sobre una charola, con pan dulce en bolsas atrás" } },
+      { "id": "churros", "file": "assets/img/photos/bakery/churros", "original": "photos/pastry-case/churros_IMG_7211.jpeg", "pos": "40% 55%",
+        "name": { "en": "Churros", "es": "Churros" },
+        "alt": { "en": "Cinnamon-sugar churros on a plate inside the glass case", "es": "Churros con canela y azúcar en un plato dentro de la vitrina" } },
+      { "id": "pastries", "file": "assets/img/photos/bakery/cheese-fruit-pastries", "original": "photos/pastry-case/cheese-and-fruit-pastries_IMG_7216.jpeg", "pos": "50% 50%",
+        "name": { "en": "Cheese and fruit pastries", "es": "Pan de queso y fruta" },
+        "alt": { "en": "Sweet breads topped with cream cheese and berry filling, next to sprinkle-covered buns", "es": "Panes dulces con queso crema y relleno de frutos rojos, junto a panes con chispas de colores" } },
+      { "id": "cookies", "file": "assets/img/photos/bakery/cookies", "original": "photos/pastry-case/cookies_IMG_7209.jpeg", "pos": "50% 40%",
+        "name": { "en": "Cookies", "es": "Galletas" },
+        "alt": { "en": "Chocolate, pink and yellow cookies and smiley-face sprinkle cookies on trays", "es": "Galletas de chocolate, rosas y amarillas, y galletas con carita feliz y chispas" } },
+      { "id": "tricolor", "file": "assets/img/photos/bakery/tricolor-cookies", "original": "photos/pastry-case/bunuelos-and-tricolor-cookies_IMG_7208.jpeg", "pos": "50% 70%",
+        "name": { "en": "Tricolor cookies", "es": "Galletas tricolor" },
+        "alt": { "en": "Round pink, yellow and chocolate tricolor cookies under a tray of buñuelos", "es": "Galletas tricolor rosa, amarillo y chocolate bajo una charola de buñuelos" } },
+      { "id": "pan-dulce", "file": "assets/img/photos/bakery/pan-dulce", "original": "photos/pastry-case/pan-dulce-and-donuts_IMG_7213.jpeg", "pos": "50% 35%",
+        "name": { "en": "Pan dulce", "es": "Pan dulce" },
+        "alt": { "en": "Sesame-topped sweet breads on the top shelf, donuts and a pink concha below", "es": "Panes dulces con ajonjolí arriba, donas y una concha rosa abajo" } },
+      { "id": "bread-donuts", "file": "assets/img/photos/bakery/bread-donuts", "original": "photos/pastry-case/bread-and-donuts_IMG_7215.jpeg", "pos": "50% 40%",
+        "name": { "en": "Bread and donuts", "es": "Pan y donas" },
+        "alt": { "en": "Golden loaves of sweet bread above a tray of glazed donuts", "es": "Panes dorados sobre una charola de donas glaseadas" } }
+    ]
+  },
+
+  "cakes": {
+    "items": [
+      { "id": "birthday-cake", "file": "assets/img/photos/cakes/birthday-cake", "original": "photos/cakes-and-events/birthday-cake_IMG_7356.jpeg", "pos": "52% 50%",
+        "name": { "en": "Birthday cake", "es": "Pastel de cumpleaños" },
+        "alt": { "en": "A birthday cake with a purple quilted side, gold leaf and a Happy Birthday topper", "es": "Pastel de cumpleaños con un lado morado acolchado, hoja de oro y letrero de Happy Birthday" } },
+      { "id": "cinnamon-roll-cake", "file": "assets/img/photos/cakes/cinnamon-roll-cake", "original": "photos/cakes-and-events/cinnamon-roll-cake_IMG_7361.jpeg", "pos": "50% 40%",
+        "name": { "en": "Cinnamon roll cake", "es": "Pastel de rol de canela" },
+        "alt": { "en": "Two giant glazed cinnamon roll cakes stacked on a gold stand", "es": "Dos roles de canela gigantes glaseados en una base dorada" } },
+      { "id": "bautizo-cake", "file": "assets/img/photos/cakes/bautizo-cake", "original": "photos/cakes-and-events/bautizo-sheet-cake_IMG_7360.jpeg", "pos": "45% 45%",
+        "name": { "en": "Baptism cake", "es": "Pastel de bautizo" },
+        "alt": { "en": "A white sheet cake piped with Bautizo in script, with gold leaf accents", "es": "Pastel blanco con la palabra Bautizo en letra cursiva y detalles de hoja de oro" } },
+      { "id": "tuxedo-conchas", "file": "assets/img/photos/cakes/tuxedo-conchas", "original": "photos/cakes-and-events/tuxedo-conchas_IMG_7359.jpeg", "pos": "55% 50%",
+        "name": { "en": "Tuxedo conchas", "es": "Conchas de esmoquin" },
+        "alt": { "en": "Black conchas decorated as tuxedos with bow ties, on a tiered stand", "es": "Conchas negras decoradas como esmoquin con moño, en una base de pisos" } },
+      { "id": "dessert-table", "file": "assets/img/photos/cakes/dessert-table", "original": "photos/cakes-and-events/dessert-table_IMG_7365.jpeg", "pos": "50% 55%",
+        "name": { "en": "Dessert table", "es": "Mesa de postres" },
+        "alt": { "en": "An event dessert table with pudding cups, yogurt parfaits and chocolate-dipped strawberries", "es": "Mesa de postres para evento con vasitos de pudín, parfaits de yogur y fresas con chocolate" } },
+      { "id": "halloween-conchas", "file": "assets/img/photos/cakes/halloween-conchas", "original": "photos/cakes-and-events/halloween-conchas_IMG_7353.jpeg", "pos": "50% 45%",
+        "name": { "en": "Halloween conchas", "es": "Conchas de Halloween" },
+        "alt": { "en": "A box of Halloween conchas decorated as pumpkins, eyeballs, monsters and candy corn", "es": "Caja de conchas de Halloween decoradas como calabazas, ojos, monstruos y dulces" } },
+      { "id": "party-table", "file": "assets/img/photos/cakes/party-table", "original": "photos/cakes-and-events/party-table-with-people_IMG_7354.jpeg", "crop": [0, 0.44, 1, 0.94], "pos": "50% 50%",
+        "name": { "en": "Party spread", "es": "Mesa para fiesta" },
+        "alt": { "en": "A party table with trays of cinnamon rolls, a glazed cake on a stand and tuxedo conchas", "es": "Mesa de fiesta con charolas de roles de canela, un pastel glaseado y conchas de esmoquin" } }
+    ]
+  },
+
+  "drinks": {
+    "items": [
+      { "id": "coffee-mug", "file": "assets/img/photos/drinks/coffee-mug", "original": "photos/drinks/coffee-in-lolita-mug_IMG_7358.jpeg", "pos": "35% 55%",
+        "name": { "en": "Coffee in a Lolita mug", "es": "Café en taza Lolita" },
+        "alt": { "en": "Coffee in a Lolita Bakery mug next to a sugar-dusted, cream-filled pastry at sunset", "es": "Café en una taza de Lolita Bakery junto a un pan relleno de crema con azúcar glas al atardecer" } },
+      { "id": "iced-mocha", "file": "assets/img/photos/drinks/iced-mocha", "original": "photos/drinks/iced-mocha_IMG_7362.jpeg", "pos": "50% 40%",
+        "name": { "en": "Iced mocha", "es": "Moka frío" },
+        "alt": { "en": "An iced mocha with whipped cream and chocolate and caramel drizzle", "es": "Moka frío con crema batida y chorritos de chocolate y caramelo" } },
+      { "id": "iced-latte", "file": "assets/img/photos/drinks/iced-latte", "original": "photos/drinks/iced-latte_IMG_7352.jpeg", "pos": "45% 55%",
+        "name": { "en": "Iced latte", "es": "Latte frío" },
+        "alt": { "en": "A creamy iced latte in a to-go cup", "es": "Un latte frío y cremoso en vaso para llevar" } },
+      { "id": "jamaica", "file": "assets/img/photos/drinks/jamaica", "original": "photos/drinks/jamaica_IMG_7357.jpeg", "pos": "40% 55%",
+        "name": { "en": "Agua de jamaica", "es": "Agua de jamaica" },
+        "alt": { "en": "A deep red iced hibiscus drink in a to-go cup", "es": "Agua de jamaica roja con hielo en vaso para llevar" } },
+      { "id": "pink-lemonade", "file": "assets/img/photos/drinks/pink-lemonade", "original": "photos/drinks/pink-lemonade_IMG_7367.jpeg", "pos": "50% 55%",
+        "name": { "en": "Pink lemonade", "es": "Limonada rosa" },
+        "alt": { "en": "A pink lemonade over ice in a to-go cup", "es": "Limonada rosa con hielo en vaso para llevar" } },
+      { "id": "lemonade", "file": "assets/img/photos/drinks/lemonade", "original": "photos/drinks/lemonade_IMG_7368.jpeg", "pos": "50% 55%",
+        "name": { "en": "Lemonade", "es": "Limonada" },
+        "alt": { "en": "A lemonade over ice in a to-go cup", "es": "Limonada con hielo en vaso para llevar" } },
+      { "id": "sodas", "file": "assets/img/photos/drinks/sodas", "original": "photos/drinks/sodas-fridge_IMG_7237.jpeg", "pos": "50% 60%",
+        "name": { "en": "Cold sodas", "es": "Refrescos fríos" },
+        "alt": { "en": "The cold case with Jarritos and bottled and canned sodas", "es": "El refrigerador con Jarritos y refrescos de botella y lata" } }
+    ]
+  }
+}

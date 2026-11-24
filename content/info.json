@@ -1,0 +1,29 @@
+{
+  "_help": "Business details used everywhere on the site (header, Visit Us, footer, map, search-engine data). Change a value here and it updates in every spot. See README.md.",
+
+  "name": "Lolita Bakery",
+  "email": "freshfromlolita@gmail.com",
+  "address": {
+    "street": "1275 Level Grove Rd, Ste 153",
+    "city": "Cornelia",
+    "state": "GA",
+    "zip": "30531"
+  },
+  "mapQuery": "1275 Level Grove Rd, Ste 153, Cornelia, GA 30531",
+  "facebook": "https://www.facebook.com/search/top?q=lolitabakery%20panaderia",
+  "instagram": "https://www.instagram.com/_lolitas_bakery/",
+
+  "_hoursHelp": "Leave \"hours\" empty [] to show 'Opening hours coming soon'. To publish hours, list one row per line you want shown, e.g. { \"days\": { \"en\": \"Monday – Friday\", \"es\": \"Lunes a viernes\" }, \"time\": { \"en\": \"6 am – 8:30 pm\", \"es\": \"6 am – 8:30 pm\" } }",
+  "hours": [],
+
+  "_ordersHelp": "Shopping cart and pickup orders. Customers add items from any section, choose a pickup day and time, and the site opens an email to 'sendTo' with the order written out (no server needed; they pay at pickup). minDaysAhead = earliest pickup day per section (0 = today, 1 = tomorrow); the strictest section in the cart wins. maxPerItem = most of one item per order. earliestPickup / latestPickup = pickup time window (24-hour clock); match them to the confirmed opening hours. Set enabled to false to hide all ordering.",
+  "orders": {
+    "enabled": true,
+    "sendTo": "freshfromlolita@gmail.com",
+    "minDaysAhead": { "bakery": 1, "coffee": 0, "clothing": 0 },
+    "maxDaysAhead": 60,
+    "maxPerItem": 60,
+    "earliestPickup": "06:00",
+    "latestPickup": "20:00"
+  }
+}
