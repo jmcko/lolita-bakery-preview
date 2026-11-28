@@ -702,8 +702,12 @@ html.js .divider[data-reveal].is-in svg { transform: none; opacity: 1; }
   width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center;
   box-shadow: inset 0 0 0 1.5px rgba(213, 155, 66, .7); color: var(--gold); transition: background-color .25s, color .25s, transform .25s var(--ease);
 }
-.social svg { width: 24px; height: 24px; }
+.social svg { display: block; width: 24px; height: 24px; }
 .social:hover { background: var(--gold); color: #17110d; transform: translateY(-3px); }
+/* the footer's link style (inline-block + padding) was pushing the icons off-center and hiding them on hover */
+.footer__col .social { display: grid; place-items: center; padding: 0; }
+.footer__col .social:hover { color: #17110d; }
+.social[data-info-href="facebook"] svg { transform: translateY(-.8px); } /* the "f" sits low in its icon box */
 .footer__base {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px;
   padding: 20px 0 calc(24px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(255, 255, 255, .12);
